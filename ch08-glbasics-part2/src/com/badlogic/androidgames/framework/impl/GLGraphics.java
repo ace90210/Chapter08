@@ -32,4 +32,8 @@ public class GLGraphics {
 	{
 		return glView.getHeight();
 	}
+	
+	public GLSurfaceView getView() {
+		return glView;
+	}
 }

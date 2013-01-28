@@ -24,6 +24,18 @@
 		<activity android:name=".CannonGravityTest"
                   android:configChanges="orientation|keyboard|keyboardHidden"/>      
         <activity android:name=".CollisionTest"
-                  android:configChanges="orientation|keyboard|keyboardHidden"/>                                                                                                                                                                                                                                                                                                                                                                                                                         
+                  android:configChanges="orientation|keyboard|keyboardHidden"/>  
+        <activity android:name=".MyGameTest"
+            	  android:screenOrientation="landscape" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"/>   
+        <activity android:name=".Camera2DTest"
+            	  android:screenOrientation="landscape" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"/> 
+        <activity android:name=".TextureAtlasTest"
+            	  android:screenOrientation="landscape" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"/>  
+        <activity android:name=".SpriteBatcherTest"
+            	  android:screenOrientation="landscape" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"/>                                                                                                                                                                                                                                                                                                                                                                                                                  
     </application>
 </manifest>
